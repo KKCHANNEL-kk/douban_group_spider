@@ -36,7 +36,7 @@
 2.  `get_topic_content.py`：获取每条讨论贴的详细内容。
 
 -   `get_topic_info(url_list)`：根据讨论贴url列表，获取讨论贴的基本信息，返回DataFrame。
-    -   DataFrame各字段定义见`数据说明-每条讨论的第一条（1楼）`和`数据说明每条讨论的所有回复内容`。
+    -   DataFrame各字段定义见`数据说明-每条讨论的第一条（1楼）`和`数据说明-每条讨论的所有回复内容`。
     -   url_list: 讨论贴url列表。
     -   content_df: 讨论贴内容(每贴第一条)的DataFrame。
     -   comment_df: 讨论贴回复的评论内容的DataFrame。
