@@ -1,8 +1,10 @@
+# 豆瓣小组文本数据爬虫
+
 抓取豆瓣小组讨论贴列表，并通过列表中各帖子链接获取帖子的详细内容（评论文本）。两部分数据都写入在网页html源码中，基本不涉及ajax请求。
 
 需求不复杂，因此直接使用requests构造请求获得html源码后，使用BeautifulSoup解析出所需字段，保存为本地csv文件。
 
-
+项目地址：https://github.com/KKCHANNEL-kk/douban_group_spider
 
 ## 1.  使用前准备
     
